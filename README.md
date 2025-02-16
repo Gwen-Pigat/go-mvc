@@ -12,6 +12,6 @@ git clone https://github.com/Gwen-Pigat/go-mvc.git
 # Navigate to the project directory
 cd go-mvc
 
-# Install dependencies
+# RUN the project
 go run main.go
 ```
