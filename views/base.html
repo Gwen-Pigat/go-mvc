@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    {{template "head" .}}
+    <body>
+        {{template "navbar" .}}
+        <main>
+            {{block "content" .}}Loading...{{end}}
+        </main>
+        {{template "foot" .}}
+    </body>
+</html>

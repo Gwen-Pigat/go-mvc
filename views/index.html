@@ -1,0 +1,9 @@
+{{define "content"}}
+    <h1 class="text-3xl font-bold underline">{{.Title}}</h1>
+    <p>{{.Content}}</p>
+    <div id="results"></div>
+    <button hx-post="/clicked"
+            hx-trigger="every 2s">
+        Trigger HTMX
+    </button>
+{{end}}
